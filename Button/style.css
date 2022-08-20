@@ -1,0 +1,27 @@
+button{
+    font: sans-serif;
+    margin: 10px;
+}
+.button1{
+    border-radius: 5pc;
+    background-color: white;
+    border-color: blue;
+    color: blue;
+    width: 100px;
+}
+.button2{
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(65, 202, 202);
+    color:white;
+    width: 30px;
+    height: 30px;
+}
+.button3{
+    box-shadow: 4px 4px 1px 1px black;
+    background-color: blue;
+    color: white;
+    border-color: black;
+    width: 130px;
+    height: 30px;
+}
