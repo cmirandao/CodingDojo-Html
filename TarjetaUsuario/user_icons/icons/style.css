@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 600px;
+    height: 300px;
+    font-family: "Kalam";
+    font-size: small;
+    font-weight: bold;
+}
+.barra_azul{
+    display: flex;
+    background-color: rgb(52, 156, 197);
+    width: 600px;
+    height: 70px;
+}
+.barra_blanca{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 10px;
+    border: 2px solid rgb(121, 144, 145);
+    width: 596px;
+    height: 250px;
+    color: black;
+}
+img{
+    border-radius: 50%;
+}
+#iconopeq{
+    height: 15px;
+}
+#user{
+    margin: 25px;
+    outline-color: rgb(121, 144, 145);
+    outline-width: 3px;
+    outline-style: solid;
+    height: 80px;
+    background-color: white;
+}
+a:link,a:visited{
+    text-decoration: underline;
+    color: blue;
+}
+.desc{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#map{
+    font-size: medium;
+}
