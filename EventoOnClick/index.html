@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sniglet&display=swap">
+</head>
+<body>
+    <header>
+        <h1>Dojonary</h1>
+        <form action="#">
+            <div>
+                <input type="text" placeholder="Search">
+                <button class="btnLogin" onclick="changeTxt(this)">Login</button>
+            </div>
+        </form>
+    </header>
+    <div class="contenedor">
+        <div class="columna1">
+            <div class="barra_blanca">
+                <section class="desc">
+                    <h1>ninja</h1>
+                    <label><em>noun</em></label>
+                    <label>Plural: <em>ninjas</em></label>
+                    <button onclick="likes(this)">13 likes</button>
+                </section>
+                <section>
+                    <p>A practitioner skilled in the <a href="#">Japanese </a>art of <a href="#">ninjutsu</a></p>
+                </section>
+            </div>
+            <div class="barra_blanca">
+                <section class="desc">
+                    <h1>ninja</h1>
+                    <label><em>noun</em></label>
+                    <label>Plural: <em>ninjas</em></label>
+                    <button onclick="likes(this)">37 likes</button>
+                </section>
+                <section>
+                    <p>A <a href="#">programmer </a>who breaks down problems with <a href="#">zen</a>-like focus</p>
+                </section>
+            </div>
+        </div>
+        <aside>
+            <div class="barra_blanca2">
+                <label>Dojonary is defined by <b>YOU</b></label>
+                <button class="add" onclick="removeBtn(this)">Add Definition</button>
+            </div>
+        </aside>
+    </div>
+    <script src="funciones.js"></script>
+</body>
+</html>

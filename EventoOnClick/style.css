@@ -1,0 +1,76 @@
+*{
+    font-family: "Sniglet";
+}
+header{
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(170, 156, 156);
+    color: white;
+    padding: 10px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 0px auto;
+}
+.btnLogin{
+    align-items: center;font-size: large;
+    box-shadow: 4px 4px 1px 1px black;
+    background-color: rgb(91, 91, 192);
+    color: white;
+    border-color: black;
+    height: 35px;
+    width: 70px;
+    margin-left: 100px;
+}
+.barra_blanca{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    border: 2px solid black;
+    width: 350px;
+    height: 150px;
+    color: black;
+    font-size: medium;
+    padding: 20px;
+}
+.barra_blanca2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    border: 2px solid black;
+    width: 120px;
+    height: 100px;
+    color: black;
+    font-size: large;
+    padding: 10px;
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin-right: 30px;
+}
+.add{
+    background-color: rgb(86, 134, 86);
+    width: 115px;
+}
+button{
+    box-shadow: 4px 4px 1px 1px black;
+    background-color: rgb(219, 176, 95);
+    color: black;
+    border-color: black;
+    height: 35px;
+    width: 80px;
+    margin-top: 20px;
+}
