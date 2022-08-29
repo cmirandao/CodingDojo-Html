@@ -88,6 +88,7 @@ h4, label{
     justify-content: space-between;
     align-items: center;
     padding-right: 20px;
+    position: fixed;
 }
 .cookie_time #cookieimg{
     width: 80px;
