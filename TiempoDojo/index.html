@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sniglet&display=swap">
+</head>
+<body>
+    <header>
+        <h1 class="nav-title">DojoWeather</h1>
+        <ul class="nav-links">
+            <li><a href="#" onclick="city_alert()">Burbank</a></li>
+            <li><a href="#" onclick="city_alert()">Chicago</a></li>
+            <li><a href="#" onclick="city_alert()">Dallas</a></li>
+        </ul>
+    </header>
+    <div class="selector_grados">
+        <h2>San Jose</h2>
+        <div>
+            show temperature in
+            <select name="grados" id="cent_far" onchange="convert(this)">
+                <option value="°C">°C</option>
+                <option value="°F">°F</option>
+            </select>
+        </div>
+    </div>
+    <div class="main">
+        <div class="sub-content">
+            <h4>Today</h4>
+            <img id="weatherimg" src="assets/some_rain.png" alt="lluvioso">
+            <label>some rain</label>
+            <div class="min-max1">
+                <label id="temp1">24</label>
+                <label id="temp2">18</label>
+            </div>
+        </div>
+        <div class="sub-content">
+            <h4>Tomorrow</h4>
+            <img id="weatherimg" src="assets/some_sun.png" alt="soleado">
+            <label>some sun</label>
+            <div class="min-max1">
+                <label id="temp3">27</label>
+                <label id="temp4">19</label>
+            </div>
+        </div>
+        <div class="sub-content">
+            <h4>Friday</h4>
+            <img id="weatherimg" src="assets/some_clouds.png" alt="nublado">
+            <label>some clouds</label>
+            <div class="min-max1">
+                <label id="temp5">21</label>
+                <label id="temp6">16</label>
+            </div>
+        </div>
+        <div class="sub-content">
+            <h4>Saturday</h4>
+            <img id="weatherimg" src="assets/some_sun.png" alt="soleado">
+            <label>some sun</label>
+            <div class="min-max1">
+                <label id="temp7">26</label>
+                <label id="temp8">21</label>
+            </div>
+        </div>
+        <!-- bloque cookies -->
+        <div class="cookie_time">
+            <img id="cookieimg" src="assets/cookie.png" alt="cookies">
+            <article>
+                <h3>Stop! Cookie time</h3>
+                <p>We use cookies (Sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more...</a></p>
+            </article>
+            <button onclick="diss_button()">I Accept</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
