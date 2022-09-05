@@ -41,4 +41,5 @@ function calculate(){
         resultado = parseFloat(num1)*parseFloat(num2);
         disnum.textContent=resultado;
     }
+    console.log(resultado);
 }
